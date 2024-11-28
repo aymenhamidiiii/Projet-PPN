@@ -1,21 +1,21 @@
 Projet PPN - Reconnaissance de Chiffres Manuscrits
 Ce projet implémente un modèle de réseau de neurones convolutif (CNN) pour la reconnaissance de chiffres manuscrits en utilisant le dataset MNIST. L'architecture est optimisée pour traiter des images de taille 28x28 en niveaux de gris.
 
-🚀 Étapes pour exécuter le projet
-1. Cloner le projet
+## 🚀 Étapes pour exécuter le projet
+### 1. Cloner le projet
 bash
 Copier le code
 git clone https://github.com/<votre-utilisateur>/<nom-du-projet>.git
 cd <nom-du-projet>
 
-2. Préparer l'environnement
+### 2. Préparer l'environnement
 Assurez-vous que votre système est configuré avec les éléments suivants :
 
 Un compilateur C++ (GCC ou Clang recommandé).
 Les outils de construction : CMake et Make.
 Les bibliothèques standard nécessaires à la compilation.
 
-3. Compiler le projet
+### 3. Compiler le projet
 Créez un répertoire dédié à la compilation et générez les fichiers exécutables :
 
 bash
@@ -25,7 +25,7 @@ cd build
 cmake ..
 make
 
-4. Télécharger le dataset MNIST
+### 4. Télécharger le dataset MNIST
 Téléchargez les fichiers nécessaires depuis le site officiel de MNIST et placez-les dans un dossier data à la racine du projet :
 
 train-images.idx3-ubyte
@@ -33,18 +33,18 @@ train-labels.idx1-ubyte
 t10k-images.idx3-ubyte
 t10k-labels.idx1-ubyte
 
-5. Exécuter le programme
+### 5. Exécuter le programme
 Lancez le programme via le binaire généré :
 
 bash
 Copier le code
 ./projetPPN
-📂 Structure du projet
+## 📂 Structure du projet
 src/ : Code source principal.
 include/ : Fichiers d'en-tête.
 build/ : Fichiers générés pour la construction via CMake.
 data/ : Dataset MNIST.
-🧠 Architecture du modèle
+## 🧠 Architecture du modèle
 L'architecture du réseau CNN est organisée comme suit :
 
 Couches Convolutives (Conv2D) :
@@ -62,7 +62,7 @@ Couches Denses (Dense) :
 Dense 1 : 375 entrées → 128 sorties, activation ReLU.
 Dense 2 : 128 entrées → 50 sorties, activation ReLU.
 Couche de sortie : 50 entrées → 10 sorties (correspondant aux classes de chiffres), activation Softmax.
-📊 Exemple de sortie
+## 📊 Exemple de sortie
 Voici un exemple d'output lors de l'exécution du programme :
 
 plaintext
