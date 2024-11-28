@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/HP/Desktop/projetPPN
+CMAKE_SOURCE_DIR = /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/HP/Desktop/projetPPN/build
+CMAKE_BINARY_DIR = /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/projetPPN.dir/depend.make
@@ -72,156 +72,156 @@ include CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/main.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/projetPPN.dir/src/main.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projetPPN.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/main.cpp.o -MF CMakeFiles/projetPPN.dir/src/main.cpp.o.d -o CMakeFiles/projetPPN.dir/src/main.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projetPPN.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/main.cpp.o -MF CMakeFiles/projetPPN.dir/src/main.cpp.o.d -o CMakeFiles/projetPPN.dir/src/main.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/main.cpp
 
 CMakeFiles/projetPPN.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/main.cpp > CMakeFiles/projetPPN.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/main.cpp > CMakeFiles/projetPPN.dir/src/main.cpp.i
 
 CMakeFiles/projetPPN.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/main.cpp -o CMakeFiles/projetPPN.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/main.cpp -o CMakeFiles/projetPPN.dir/src/main.cpp.s
 
 CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o: ../src/Conv2D.cpp
 CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o -MF CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/Conv2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o -MF CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Conv2D.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Conv2D.cpp
 
 CMakeFiles/projetPPN.dir/src/Conv2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/Conv2D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/Conv2D.cpp > CMakeFiles/projetPPN.dir/src/Conv2D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Conv2D.cpp > CMakeFiles/projetPPN.dir/src/Conv2D.cpp.i
 
 CMakeFiles/projetPPN.dir/src/Conv2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/Conv2D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/Conv2D.cpp -o CMakeFiles/projetPPN.dir/src/Conv2D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Conv2D.cpp -o CMakeFiles/projetPPN.dir/src/Conv2D.cpp.s
 
 CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o: ../src/MaxPooling2D.cpp
 CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o -MF CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o.d -o CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/MaxPooling2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o -MF CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o.d -o CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/MaxPooling2D.cpp
 
 CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/MaxPooling2D.cpp > CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/MaxPooling2D.cpp > CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.i
 
 CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/MaxPooling2D.cpp -o CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/MaxPooling2D.cpp -o CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.s
 
 CMakeFiles/projetPPN.dir/src/Flatten.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/Flatten.cpp.o: ../src/Flatten.cpp
 CMakeFiles/projetPPN.dir/src/Flatten.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/projetPPN.dir/src/Flatten.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Flatten.cpp.o -MF CMakeFiles/projetPPN.dir/src/Flatten.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Flatten.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/Flatten.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/projetPPN.dir/src/Flatten.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Flatten.cpp.o -MF CMakeFiles/projetPPN.dir/src/Flatten.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Flatten.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Flatten.cpp
 
 CMakeFiles/projetPPN.dir/src/Flatten.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/Flatten.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/Flatten.cpp > CMakeFiles/projetPPN.dir/src/Flatten.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Flatten.cpp > CMakeFiles/projetPPN.dir/src/Flatten.cpp.i
 
 CMakeFiles/projetPPN.dir/src/Flatten.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/Flatten.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/Flatten.cpp -o CMakeFiles/projetPPN.dir/src/Flatten.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Flatten.cpp -o CMakeFiles/projetPPN.dir/src/Flatten.cpp.s
 
 CMakeFiles/projetPPN.dir/src/Dense.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/Dense.cpp.o: ../src/Dense.cpp
 CMakeFiles/projetPPN.dir/src/Dense.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projetPPN.dir/src/Dense.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Dense.cpp.o -MF CMakeFiles/projetPPN.dir/src/Dense.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Dense.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/Dense.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projetPPN.dir/src/Dense.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Dense.cpp.o -MF CMakeFiles/projetPPN.dir/src/Dense.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Dense.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Dense.cpp
 
 CMakeFiles/projetPPN.dir/src/Dense.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/Dense.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/Dense.cpp > CMakeFiles/projetPPN.dir/src/Dense.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Dense.cpp > CMakeFiles/projetPPN.dir/src/Dense.cpp.i
 
 CMakeFiles/projetPPN.dir/src/Dense.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/Dense.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/Dense.cpp -o CMakeFiles/projetPPN.dir/src/Dense.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Dense.cpp -o CMakeFiles/projetPPN.dir/src/Dense.cpp.s
 
 CMakeFiles/projetPPN.dir/src/Layer.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/Layer.cpp.o: ../src/Layer.cpp
 CMakeFiles/projetPPN.dir/src/Layer.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projetPPN.dir/src/Layer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Layer.cpp.o -MF CMakeFiles/projetPPN.dir/src/Layer.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Layer.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/Layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projetPPN.dir/src/Layer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Layer.cpp.o -MF CMakeFiles/projetPPN.dir/src/Layer.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Layer.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Layer.cpp
 
 CMakeFiles/projetPPN.dir/src/Layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/Layer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/Layer.cpp > CMakeFiles/projetPPN.dir/src/Layer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Layer.cpp > CMakeFiles/projetPPN.dir/src/Layer.cpp.i
 
 CMakeFiles/projetPPN.dir/src/Layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/Layer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/Layer.cpp -o CMakeFiles/projetPPN.dir/src/Layer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Layer.cpp -o CMakeFiles/projetPPN.dir/src/Layer.cpp.s
 
 CMakeFiles/projetPPN.dir/src/Neuron.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/Neuron.cpp.o: ../src/Neuron.cpp
 CMakeFiles/projetPPN.dir/src/Neuron.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projetPPN.dir/src/Neuron.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Neuron.cpp.o -MF CMakeFiles/projetPPN.dir/src/Neuron.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Neuron.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/Neuron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projetPPN.dir/src/Neuron.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/Neuron.cpp.o -MF CMakeFiles/projetPPN.dir/src/Neuron.cpp.o.d -o CMakeFiles/projetPPN.dir/src/Neuron.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Neuron.cpp
 
 CMakeFiles/projetPPN.dir/src/Neuron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/Neuron.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/Neuron.cpp > CMakeFiles/projetPPN.dir/src/Neuron.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Neuron.cpp > CMakeFiles/projetPPN.dir/src/Neuron.cpp.i
 
 CMakeFiles/projetPPN.dir/src/Neuron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/Neuron.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/Neuron.cpp -o CMakeFiles/projetPPN.dir/src/Neuron.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/Neuron.cpp -o CMakeFiles/projetPPN.dir/src/Neuron.cpp.s
 
 CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o: ../src/NeuralNetwork.cpp
 CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o -MF CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o.d -o CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/NeuralNetwork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o -MF CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o.d -o CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/NeuralNetwork.cpp
 
 CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/NeuralNetwork.cpp > CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/NeuralNetwork.cpp > CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.i
 
 CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/NeuralNetwork.cpp -o CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/NeuralNetwork.cpp -o CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.s
 
 CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o: ../src/MNISTReader.cpp
 CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o -MF CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o.d -o CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/MNISTReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o -MF CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o.d -o CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/MNISTReader.cpp
 
 CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/MNISTReader.cpp > CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/MNISTReader.cpp > CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.i
 
 CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/MNISTReader.cpp -o CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/MNISTReader.cpp -o CMakeFiles/projetPPN.dir/src/MNISTReader.cpp.s
 
 CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o: ../src/LossFunctions.cpp
 CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o -MF CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o.d -o CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/LossFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o -MF CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o.d -o CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/LossFunctions.cpp
 
 CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/LossFunctions.cpp > CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/LossFunctions.cpp > CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.i
 
 CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/LossFunctions.cpp -o CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/LossFunctions.cpp -o CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.s
 
 CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o: CMakeFiles/projetPPN.dir/flags.make
 CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o: ../src/AdamOptimizer.cpp
 CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o: CMakeFiles/projetPPN.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o -MF CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o.d -o CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o -c /mnt/c/Users/HP/Desktop/projetPPN/src/AdamOptimizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o -MF CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o.d -o CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o -c /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/AdamOptimizer.cpp
 
 CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/projetPPN/src/AdamOptimizer.cpp > CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/AdamOptimizer.cpp > CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.i
 
 CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/projetPPN/src/AdamOptimizer.cpp -o CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/AdamOptimizer.cpp -o CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.s
 
 # Object files for target projetPPN
 projetPPN_OBJECTS = \
@@ -253,7 +253,7 @@ projetPPN: CMakeFiles/projetPPN.dir/src/LossFunctions.cpp.o
 projetPPN: CMakeFiles/projetPPN.dir/src/AdamOptimizer.cpp.o
 projetPPN: CMakeFiles/projetPPN.dir/build.make
 projetPPN: CMakeFiles/projetPPN.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable projetPPN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable projetPPN"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projetPPN.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -265,6 +265,6 @@ CMakeFiles/projetPPN.dir/clean:
 .PHONY : CMakeFiles/projetPPN.dir/clean
 
 CMakeFiles/projetPPN.dir/depend:
-	cd /mnt/c/Users/HP/Desktop/projetPPN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/HP/Desktop/projetPPN /mnt/c/Users/HP/Desktop/projetPPN /mnt/c/Users/HP/Desktop/projetPPN/build /mnt/c/Users/HP/Desktop/projetPPN/build /mnt/c/Users/HP/Desktop/projetPPN/build/CMakeFiles/projetPPN.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/build/CMakeFiles/projetPPN.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/projetPPN.dir/depend
 

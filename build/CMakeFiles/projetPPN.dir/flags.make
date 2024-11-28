@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/HP/Desktop/projetPPN/include
+CXX_INCLUDES = -I/mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/include
 
 CXX_FLAGS =  -Wall -Wextra -Werror -O3 -std=gnu++17
 

@@ -1,7 +1,7 @@
 CMakeFiles/projetPPN.dir/src/MaxPooling2D.cpp.o: \
- /mnt/c/Users/HP/Desktop/projetPPN/src/MaxPooling2D.cpp \
+ /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/MaxPooling2D.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/HP/Desktop/projetPPN/include/MaxPooling2D.h \
+ /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/include/MaxPooling2D.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

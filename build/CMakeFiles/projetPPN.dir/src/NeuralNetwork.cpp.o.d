@@ -1,9 +1,9 @@
 CMakeFiles/projetPPN.dir/src/NeuralNetwork.cpp.o: \
- /mnt/c/Users/HP/Desktop/projetPPN/src/NeuralNetwork.cpp \
+ /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/src/NeuralNetwork.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/HP/Desktop/projetPPN/include/NeuralNetwork.h \
- /mnt/c/Users/HP/Desktop/projetPPN/include/Layer.h \
- /mnt/c/Users/HP/Desktop/projetPPN/include/Neuron.h \
+ /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/include/NeuralNetwork.h \
+ /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/include/Layer.h \
+ /mnt/c/Users/HP/Desktop/Nouveau/Projet-PPN/include/Neuron.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

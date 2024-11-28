@@ -6,7 +6,7 @@
 #include "LossFunctions.h"
 #include <iostream>
 #include <vector>
-#include <cmath>
+#include <iomanip> // Pour std::setprecision
 
 int main() {
     // Charger les données MNIST
@@ -64,6 +64,7 @@ int main() {
 
     for (int epoch = 0; epoch < epochs; ++epoch) {
         double totalLoss = 0.0;
+        int correctTrainPredictions = 0;
 
         // Étape 1 : Entraînement
         for (size_t i = 0; i < trainData.size(); ++i) {
@@ -84,10 +85,18 @@ int main() {
             auto dLoss_dDense2 = outputLayer.backward(dLoss_dOutput, dense2Output, learningRate);
             auto dLoss_dDense1 = dense2.backward(dLoss_dDense2, dense1Output, learningRate);
             dense1.backward(dLoss_dDense1, flattenOutput, learningRate);
+
+            // Prédictions correctes pour l'entraînement
+            int predictedClass = std::distance(finalOutput.begin(), std::max_element(finalOutput.begin(), finalOutput.end()));
+            if (predictedClass == trainLabels[i]) {
+                ++correctTrainPredictions;
+            }
         }
 
+        double trainAccuracy = static_cast<double>(correctTrainPredictions) / trainData.size() * 100;
+
         // Étape 2 : Évaluation sur l'ensemble de test
-        int correctPredictions = 0;
+        int correctTestPredictions = 0;
         for (size_t i = 0; i < testImages.size(); ++i) {
             std::vector<std::vector<std::vector<std::vector<double>>>> singleTestData(
                 1, std::vector<std::vector<std::vector<double>>>(1,
@@ -109,13 +118,15 @@ int main() {
 
             int predictedClass = std::distance(finalOutput.begin(), std::max_element(finalOutput.begin(), finalOutput.end()));
             if (predictedClass == testLabels[i]) {
-                ++correctPredictions;
+                ++correctTestPredictions;
             }
         }
 
-        double accuracy = static_cast<double>(correctPredictions) / testImages.size();
+        double testAccuracy = static_cast<double>(correctTestPredictions) / testImages.size() * 100;
+
+        // Affichage des résultats
         std::cout << "Epoch " << epoch + 1 << ", Loss: " << totalLoss / trainData.size()
-                  << ", Accuracy: " << accuracy * 100 << "%" << std::endl;
+                  << ", Training Accuracy: " << trainAccuracy << "%, Test Accuracy: " << testAccuracy << "%" << std::endl;
     }
 
     return 0;
