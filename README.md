@@ -5,8 +5,8 @@ Ce projet implémente un modèle de réseau de neurones convolutif (CNN) pour la
 ### 1. Cloner le projet
 - bash
 - Copier le code
-- git clone https://github.com/<votre-utilisateur>/<nom-du-projet>.git
-- cd <nom-du-projet>
+- git clone https://github.com/*votre-utilisateur*/*nom-du-projet*.git
+- cd **nom-du-projet**
 
 ### 2. Préparer l'environnement
 - Assurez-vous que votre système est configuré avec les éléments suivants :
